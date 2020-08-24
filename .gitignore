@@ -1,0 +1,7 @@
+minilab/
+
+*~
+*.pdf
+*.pyc
+*.egg-info/
+*pycache*
