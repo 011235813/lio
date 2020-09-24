@@ -2,7 +2,8 @@
 
 import numpy as np
 
-from env import ssd
+from lio.env import ssd
+
 
 class Env(ssd.Env):
 

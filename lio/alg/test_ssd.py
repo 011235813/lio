@@ -3,19 +3,15 @@
 import argparse
 import os
 import random
-import sys
-import time
-
-sys.path.append('../env/')
 
 import numpy as np
 import tensorflow as tf
 
-import config_ssd_lio
-import config_ssd_pg
-import evaluate
-import policy_gradient
-import ssd
+import lio.alg.config_ssd_lio
+import lio.alg.config_ssd_pg
+import lio.alg.evaluate
+import lio.alg.policy_gradient
+import lio.env.ssd
 
 
 def test_lio(config, render=False):

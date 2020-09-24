@@ -13,18 +13,15 @@ import argparse
 import json
 import os
 import random
-import sys
-
-sys.path.append('../env/')
 
 import numpy as np
 import tensorflow as tf
 
-import config_ipd_lio
-import config_room_lio
-import evaluate
-import ipd_wrapper
-import room_symmetric
+from lio.alg import config_ipd_lio
+from lio.alg import config_room_lio
+from lio.alg import evaluate
+from lio.env import ipd_wrapper
+from lio.env import room_symmetric
 
 
 def train(config):

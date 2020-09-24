@@ -2,17 +2,15 @@
 import json
 import os
 import random
-import sys
 import time
-
-sys.path.append('../env/')
 
 import numpy as np
 import tensorflow as tf
 
-import config_ssd_lio
-import evaluate
-import ssd
+import lio.alg.config_ssd_lio
+import lio.alg.evaluate
+import lio.env.ssd
+
 
 def train_function(config):
 

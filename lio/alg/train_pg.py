@@ -17,9 +17,9 @@ import time
 import numpy as np
 import tensorflow as tf
 
-import config_room_pg
-import config_ssd_pg
-import evaluate
+import lio.alg.config_room_pg
+import lio.alg.config_ssd_pg
+import lio.alg.evaluate
 
 
 def train_function(config):

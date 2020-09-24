@@ -1,5 +1,5 @@
 import numpy as np
-from env import room_agent
+from lio.env import room_agent
 
 
 class Env(object):

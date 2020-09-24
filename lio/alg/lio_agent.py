@@ -1,13 +1,10 @@
 """LIO with policy gradient for policy optimization."""
-import sys
-
 import numpy as np
 import tensorflow as tf
 
-import networks
+import lio.alg.networks
+import lio.utils.util
 
-sys.path.append('../utils/')
-import util
 
 class LIO(object):
 

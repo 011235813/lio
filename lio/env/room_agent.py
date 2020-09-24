@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Actor(object):
 
     def __init__(self, agent_id, n_agents, l_obs):

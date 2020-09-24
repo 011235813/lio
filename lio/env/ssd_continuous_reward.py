@@ -5,7 +5,7 @@ This is used for running baseline methods where the new action space is
 """
 import numpy as np
 
-from env import ssd
+from lio.env import ssd
 
 
 class Env(ssd.Env):

@@ -5,7 +5,7 @@ where the new discrete action space is {original actions} X {reward-giving actio
 """
 import numpy as np
 
-from env import ssd
+from lio.env import ssd
 
 
 class Env(ssd.Env):

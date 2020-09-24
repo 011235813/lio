@@ -6,7 +6,7 @@ import time
 import numpy as np
 import tensorflow as tf
 
-import scripted_agents
+from lio.alg import scripted_agents
 
 # Map from name of map to the largest column position
 # where a cleaning beam fired from that position can clear waste

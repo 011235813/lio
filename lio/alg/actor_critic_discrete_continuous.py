@@ -8,9 +8,9 @@ import tensorflow as tf
 
 from scipy.special import expit
 
-import networks
-import actor_critic
-from utils import util
+from lio.alg import networks
+from lio.alg import actor_critic
+from lio.utils import util
 
 
 class ActorCritic(actor_critic.ActorCritic):

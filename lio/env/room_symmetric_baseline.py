@@ -9,12 +9,12 @@ Used by policy gradient with no reward-giving
 import gym
 import numpy as np
 
-from env import room_agent
+from lio.env import room_agent
 
 from gym.spaces import Discrete, Tuple
 
 # from lola.envs.common import OneHot
-from utils.common import OneHot
+from lio.utils.common import OneHot
 
 
 class EscapeRoom(gym.Env):

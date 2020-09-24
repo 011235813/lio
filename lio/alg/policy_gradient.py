@@ -3,8 +3,8 @@
 import numpy as np
 import tensorflow as tf
 
-import networks
-from utils import util
+import lio.alg.networks
+from lio.utils import util
 
 
 class PolicyGradient(object):

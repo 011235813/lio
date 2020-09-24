@@ -6,7 +6,7 @@ Versions supported:
 3. discrete movement actions and continuous reward-giving actions
 """
 
-from utils.configdict import ConfigDict
+from lio.utils.configdict import ConfigDict
 
 
 def get_config():

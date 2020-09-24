@@ -1,7 +1,5 @@
-import sys
-sys.path.append('../utils/')
+from lio.utils import configdict
 
-import configdict
 
 def get_config():
 

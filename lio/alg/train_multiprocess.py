@@ -8,14 +8,14 @@ import sys
 from multiprocessing import Process
 from copy import deepcopy
 
-import train_pg
-import train_lio
-import train_ssd
-import config_ipd_lio
-import config_room_lio
-import config_room_pg
-import config_ssd_lio
-import config_ssd_pg
+import lio.alg.train_pg
+import lio.alg.train_lio
+import lio.alg.train_ssd
+import lio.alg.config_ipd_lio
+import lio.alg.config_room_lio
+import lio.alg.config_room_pg
+import lio.alg.config_ssd_lio
+import lio.alg.config_ssd_pg
 
 parser = argparse.ArgumentParser()
 parser.add_argument('alg', type=str, choices=['lio', 'pg'],

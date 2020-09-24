@@ -3,19 +3,16 @@
 import argparse
 import os
 import random
-import sys
-import time
 
 from copy import deepcopy
-sys.path.append('../env/')
 
 import numpy as np
 import tensorflow as tf
 
-import config_room_lio
-import config_room_pg
-import evaluate
-import room_symmetric
+import lio.alg.config_room_lio
+import lio.alg.config_room_pg
+import lio.alg.evaluate
+import lio.env.room_symmetric
 
 
 def test_lio(config):

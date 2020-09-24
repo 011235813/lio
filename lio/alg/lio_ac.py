@@ -4,8 +4,8 @@ import tensorflow as tf
 
 import networks
 
-from utils import util
-from lio_agent import PolicyNew as PolicyNewMLP
+from lio.utils import util
+from lio.alg.lio_agent import PolicyNew as PolicyNewMLP
 
 
 class LIO(object):

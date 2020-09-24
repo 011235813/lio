@@ -1,6 +1,6 @@
 """Wrapper around Sequential Social Dilemma environment."""
 
-from env import maps
+from lio.env import maps
 from social_dilemmas.constants import CLEANUP_MAP
 from social_dilemmas.envs.cleanup import CleanupEnv
 

@@ -3,7 +3,7 @@
 import gym
 import numpy as np
 
-import room_agent
+import lio.env.room_agent
 
 from gym.spaces import Discrete, Tuple
 
