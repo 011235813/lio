@@ -37,6 +37,18 @@ This is the code for experiments in the paper [Learning to Incentivize Other Lea
 * Execute training script `$ python train_multiprocess.py lio ssd`.
 * For a single run, execute `$ python train_ssd.py`.
 
+## Citation
+
+<pre>
+@article{yang2020learning,
+  title={Learning to incentivize other learning agents},
+  author={Yang, Jiachen and Li, Ang and Farajtabar, Mehrdad and Sunehag, Peter and Hughes, Edward and Zha, Hongyuan},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={15208--15219},
+  year={2020}
+}
+</pre>
 
 ## License
 
